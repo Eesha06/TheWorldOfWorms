@@ -152,7 +152,7 @@ def gameLoop():
             if x == worm_Head:
                 game_close = True
  
-        our_snake(worm_block, worm_List)
+        our_worm(worm_block, worm_List)
         Your_score(Length_of_worm - 1)
  
         pygame.display.update()
